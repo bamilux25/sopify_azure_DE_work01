@@ -1,0 +1,15 @@
+{
+	"name": "elite247-ADF-pj",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "670a08ef-e790-4a47-80f1-ac717b9c02d7",
+		"tenantId": "a9f6107c-68f0-4ea6-9f5f-4246d5d8d463"
+	}
+}
