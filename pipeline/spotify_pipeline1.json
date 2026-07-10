@@ -68,7 +68,10 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"par_container": "elite-bronze-ds",
-							"par_folder": "TestUser",
+							"par_folder": {
+								"value": "@pipeline().parameters.table",
+								"type": "Expression"
+							},
 							"par_file": {
 								"value": "@concat(pipeline().parameters.table, '_', variables('current'))",
 								"type": "Expression"
